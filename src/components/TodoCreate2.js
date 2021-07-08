@@ -13,7 +13,10 @@ const TodoCreate2 = () => {
       {open && (
         <div className={cn("InsertFormPositioner")}>
           <form className={cn("InsetForm")}>
-            <input className={cn("Input")}></input>
+            <input
+              className={cn("Input")}
+              placeholder="할 일을 입력 후, Enter 를 누르세요"
+            />
           </form>
         </div>
       )}
